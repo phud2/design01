@@ -1,0 +1,2056 @@
+/* CSS used sited wide */
+
+@import url('fonts.css');
+
+/* Styles used in all sections */
+
+body{
+	margin: 0;
+	color: #090f29;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.75;
+}
+
+a{
+    text-decoration: none;
+}
+
+h6{
+	line-height: 1.75;
+	color: #090f29;
+}
+
+.shadow-bkgrd{
+	background: #e9edf2;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	box-shadow: 10px 10px 80px 30px #e9edf2;
+}
+
+.in-text-800 {
+	color: #FFB400;
+	text-shadow: 1px 2px 2px #171919;
+	font-weight: 600;
+	font-size: 34px;
+	letter-spacing: 2px;
+}
+
+/* wrapper around the whole page*/
+.main-wrapper{
+	margin: 0;
+	width: 100%;
+}
+
+/* main headers */
+.article-header{
+	text-align: center;
+	margin: 0 auto;
+}
+/* sub headers */
+.sub-header{
+	text-align: center;
+	font-size: 38px;
+	font-weight: 600;
+	margin: 0 0 3% 0;
+}
+
+.article-sub-header {
+	font-size: 34px;
+	margin: 0 0 3% 0;
+}
+
+.sub-sub-header{
+	text-transform: uppercase;
+	padding-bottom: 20px;
+	margin: 3% auto;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.article-call-out{
+	display: inline-block;
+	margin: 3% auto;
+	text-align: center;
+	font-size: 20px;
+	line-height: 1.75;
+}
+
+/* accordion styles */
+
+.accordion-header {
+	font-size: 24px;
+	font-weight: 600;
+	color: #536783;	
+	padding: 0 0 10% 0;
+}
+
+.accordion-header h2 {
+	position: relative;
+	float: left;
+	margin: 0 2%;
+	line-height: 1;
+}
+
+.accordion-header:hover{
+    cursor: pointer;
+}
+
+.accordion-control {
+	position: relative;
+	float: left;
+	width: 22px;
+	height: 22px;
+	margin: 0 2%;
+	border: 1px solid #536783;
+	-webkit-border-radius: 90px;	
+	-moz-border-radius: 90px;
+	border-radius: 90px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 20px;
+}
+
+.accordion-description {
+	padding: 2% 10%;
+	line-height: 1.75;
+	font-size: 18px;
+}
+
+.rotated {
+	transform: rotate(45deg) ;
+	-webkit-transform: rotate(45deg) ;
+	-moz-transform: rotate(45deg) ;
+	-o-transform: rotate(45deg) ;
+	-ms-transform: rotate(45deg) ;
+}
+
+/* fonts for all headers */ 
+.header-font, .action-font {
+	font-size: 38px;
+	font-weight: 600;
+
+	text-transform: uppercase;
+	margin: 0 0 3% 0;	
+	padding-bottom: 20px;
+	line-height: 1.75;
+}
+
+	/* adds width to a div for centering purposes */
+.add-width {
+	width: 40%;
+	text-align: center;
+}
+
+/*class only for centering*/
+.center {
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+	line-height: 1.75;
+}
+
+/* centers container divs */
+.centered {
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+/* Centers the parent container and provides border */
+.content {
+	width: 100%;
+	height: 100%;
+	margin: 5% auto;
+	display: inline-block;
+}
+
+/* margins for three-column layouts */
+.add-margin-tb-three {
+	margin-bottom: 3% !important;
+	margin-top: 3% !important;
+}
+
+/* class for adding top margins */
+.add-margin-top-ten {
+	margin-top: 10%;
+}
+
+/* text centered class*/
+.text-center {
+	text-align: center;	
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+/* Fills a container with the background */ 
+.clear-fix:after {
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
+
+/* temporary style for placeholder */
+.placeholder {
+	width: 50%;
+	height: 50%;
+}
+
+/* Video on home page */
+.covervid-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+	display: block;
+}
+
+/* Sub-page hero styling */
+/* Styles for hero div */
+.hero {
+	position: relative;
+	width: 100%;
+	height: 90vh;
+	margin: 0 auto;
+	color: #fff !important;
+	z-index: 5;
+}
+
+.hero h1, .hero div, .hero p, .hero h6 {
+	color: #fff;
+}
+
+/* background for hero banners on each page */
+.hero-background {
+	top: 0;
+	display: inline-block;
+    vertical-align: middle;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+	background-image: url("../images/placeholder.jpg");
+}
+
+.hero-content-wrapper {
+	position: absolute;
+	top: 0;
+	display: inline-block;
+    width: 100%;
+	height: 100%;
+}
+
+.covervid-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-margin {
+	margin: 0 0 0 5%;	
+}
+
+.hero-header-vertical-middle {
+	position: relative;
+	margin: 0 10%;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+/* main header on each hero banner */
+.hero-header-title {
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 60px;
+	line-height: 1.75;
+	margin: 5% auto 0;
+	text-shadow: 1px 2px 2px #171919;
+}
+
+/* second header on each hero banner */
+.hero-header-sub-header {
+	text-transform: uppercase;
+	font-size: 25px;
+	line-height: 1.75;
+	font-weight: 400;
+	letter-spacing: 2px;
+	margin: 5% auto 0;
+	text-shadow: 1px 2px 2px #171919;
+}
+
+/* Circle button styling - buttons on each page */
+.button { 
+	display: inline-block; 
+	cursor: pointer; 
+	text-decoration: none;
+	text-align: center;
+	margin: 5% auto;
+} 
+
+.button-hero {
+	background: url("../images/down-arrow.png") no-repeat center center;
+	background-size: 50%;
+	-moz-border-radius: 50%; 
+	-webkit-border-radius: 50%; 
+	border-radius: 50%; 
+	border: 2px solid #fff; 
+	width: 75px;
+	height: 75px;
+	padding: 10px 10px; 
+}
+
+.button-oval {
+	background: #FFB400;
+	-moz-border-radius: 28px; 
+	-webkit-border-radius: 28px; 
+	border-radius: 28px;
+	border: 2px solid #000;
+	width: 100px;
+	height: 15px;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	color: #000;
+	line-height: 1;
+}
+
+/* spacing around the button */
+.button-move {
+	margin: 3% auto;
+	width: 20%;
+}
+	
+.button:hover { 
+	background-color: #f7ca5f; 
+} 
+
+.button-text {
+	color: #fff;
+	text-align: center;
+	margin: 1% auto 5%;
+}
+
+/* Creates two columns of equal width */
+
+.two-column-wrapper {
+	display: inline-block;
+	width: 70%;
+	margin: 2% auto;
+}
+
+.two-column-wrapper h5 {
+	font-size: 30px;
+	margin: 8% auto;
+}
+
+.two-column-wrapper > div {
+	display: inline-block;
+	position: relative;
+	width: 46%;
+	height: 100%;
+	padding: 0 2%;
+	text-align: center;
+	float: left;
+}
+
+.two-column-wrapper p {
+	text-align: left;
+}
+
+/* Creates two columns with larger left width*/
+
+.left {
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+}
+
+.section-one h6, .section-one-home h2 {
+	color: #090f29;
+	margin: 0 10%;
+}
+
+.left {
+	margin: 0 2% 0 0;
+}
+
+.right {
+	display: inline-block;
+	width: 35%;
+	margin: 2% 0 2% 2%;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.float-clear {
+	clear: both;	
+}
+
+.left-text-margins {
+	padding-left: 7%;
+	padding-right: 3%;
+	display: inline-block;
+	width:35%;
+	margin-bottom: 3%;
+	text-align: right;
+	margin-left: 3%;
+}
+
+.right-text-margins {
+	margin-top: 5%;
+	margin-left: 0;
+	margin-right: 7%;
+	width: 40%;	
+}
+
+/* Create three columns */
+
+.three-col {
+	width: 25%;
+	margin: 4%;	
+}
+
+/* Create four columns */
+
+.four-col {
+	width: 20%;
+	display: inline-block;
+	margin: 0 2%;
+	float: left;
+}
+
+.logo {
+	margin: 1% 2% 1% 2%;
+	float: left;
+}
+
+.nav-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 5%;
+	width: 100%;
+	font-size: 22px;
+	margin: 0 auto;
+	padding: 1% 0;
+	z-index: 10;	
+}
+
+nav {
+	height: inherit;
+	display: inline-block;
+	text-align: center;
+}
+
+nav > ul {
+	margin: 5% auto 5%;
+	padding: 0;
+	width: 100%;
+}
+
+.nav-links {
+	display: inline;
+	margin: 0 1% 0;
+}
+
+.nav-links > a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
+	text-shadow: 1px 2px 2px #171919;
+}
+
+.nav-links > a:hover {
+	color: #7fd0ff;
+}
+
+.header-banner-wrapper {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #090f29;
+}
+
+.nav-left {
+	flex: 1 1 auto;
+	text-align: center;
+	margin: 0 2%;
+}
+
+.nav-left p {
+	font-size: 15px;
+	color: #fff !important;
+	text-shadow: 1px 2px 2px #171919;
+}
+
+.nav-left img {
+	width: 50%;
+	max-width: 100px;
+	display: block;
+	margin: 0 auto;
+}
+
+.nav-middle {
+	flex: 2 2 auto;
+}
+
+.nav-right {
+	display: inline-block;
+	color: #FFB400;
+	flex: 1 1 auto;
+	font-weight: 800;
+	letter-spacing: 1px;
+	text-shadow: 1px 2px 2px #171919;
+	margin: 0 5% 0 1%;
+	text-align: center;
+}
+
+.nav-right-call {
+	color: #fff !important;
+	font-weight: 600;
+	text-shadow: 1px 2px 2px #171919;
+	line-height: 1;
+}
+
+.call-to-action {
+	font-family: 'Dosis', Helvetica, sans-serif;
+	position: relative;
+	margin: 0 auto;
+	padding: 1% 0;
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.call-to-action:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin-right: -0.25em; /* Adjusts for spacing */
+}
+
+
+.call-to-action > div {
+	position: relative;
+	line-height: 1.75;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.call-to-action p {
+	margin: 0 1%;
+	padding: 0;
+	display: inline;
+	color: #ffffff;
+	position: relative;
+	vertical-align: middle;
+}
+
+.header-phone {
+	font-size: 44px; !important
+}
+
+.header-emp-text {
+	color: #FFB400 !important;
+}
+
+.header-banner-left {
+	text-align: right;
+}
+
+.header-banner-right {
+	text-align: left;
+}
+
+.header-banner-middle {
+	margin: 0 1%;
+}
+
+/* End nav/header formats */
+
+/* Navigation CSS mobile */
+.mobile-container {
+  display: none;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(175, 175, 177, .75);
+  position: fixed;
+  text-align: center;
+  z-index: 999;
+}
+
+.mobile-container h1 {
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.hamburger, .phone-icon, .mobile-container {
+  display: none;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+
+.nav-list-mobile {
+    margin-top: 70px;
+    display: none;
+    list-style-type: none;
+    padding: 0;
+}
+
+.hamburger button {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  font-size: 27px;
+  padding: 1px 2%;
+  cursor: pointer;
+  border: none;
+  outline: none;
+    -webkit-transition: all 400ms ease;
+            transition: all 400ms ease;
+}
+
+.phone-icon button {
+  position: absolute;
+  display: inline-block;
+  top: 0;
+  right: 0;
+  background-color: transparent;
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  font-size: 33px;
+  padding: 1px 10% 1px 0;
+  cursor: pointer;
+  border: none;
+  outline: none;
+    -webkit-transition: all 400ms ease;
+            transition: all 400ms ease;
+}
+
+.hamburger button.expanded {
+    -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+            transform: rotate(90deg);
+  background-color: transparent;
+  border: 1px solid #ddd;
+}
+.hamburger a {
+    display: block;
+}
+
+.nav-list-mobile a {
+    background-color: #7a7d85;
+    text-align: center;
+    padding: 20px 0;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-list-mobile a:hover {
+  color: #5ab1ef;
+}
+
+.desktop {
+    display: block;
+    overflow: hidden;
+}
+/* Navigation CSS mobile END----------*/
+
+/* Mobile Styles */
+
+ .call-now-top, .logo {
+   	display: none;
+}
+
+
+/* Largest call to action in the middle of every page */
+.largest-call-action {
+	background-color: #FFB400;
+	padding: 5% 0;
+}
+
+.call-wrapper {
+	display: table;
+	margin: 0 auto;
+}
+
+.call-wrapper > div, .call-wrapper >p {
+	display: table-cell;
+	white-space: nowrap;
+	float: right;
+	clear: both;
+}
+
+.call-wrapper > div {
+	text-align: right;
+	margin: 0 auto;
+	float: right;
+}
+
+.call-font {
+	font-size: 24px;
+	font-weight: 800;
+	color: #000;
+}
+
+.call-action {
+	font-size: 45px !important; 
+	text-align: right;
+	margin-right: 4%;
+}
+
+.call-number {
+	display: inline;
+	color: #fff;
+	margin: 0 0 0 2%;
+	font-size: 100px;
+	vertical-align: middle;
+}
+
+.largest-call-action .img {
+	width: 75%;
+	height: 75%;
+}
+
+/* Circles behind icons */
+
+.circle-wrapper {
+	height: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.stronger {
+	font-weight: 600;
+	color: #fff;
+}
+
+/* icons */
+
+.icon {
+	/* circle behind most icons */
+	height: 100px;
+	width: 100px;
+	border-radius: 100px;
+	background: url("../images/circle.png") no-repeat center center;
+	background-size: 100% 100%;
+	margin: 15% auto;
+}
+
+/* Circle background and image for three-col */
+.circle-three-col {
+	/* circle behind most icons */
+	width: 120px !important;
+	height: 120px;
+	background: url("../images/circle.png") no-repeat center center;
+	background-size: auto 100%;
+	margin: 15% auto;
+	position: relative;
+}
+
+.icon-three-col {
+	position: relative;
+	margin: 0 auto;
+	top: 50%;
+	transform: translateY(-50%) !important;
+	color: #83a0c4;
+}
+
+.fa-phone {
+	position: relative;
+	margin: 0 auto;
+	top: 10%;
+}
+
+
+/* phone icon near call to action at middle of each page */
+.small-circle {
+	/* Place holder for circle icon on home page */
+	width: 80px !important;
+	height: 80px;
+	display: inline;
+}
+
+/*icons that switch between multiple content */
+.multi-content-switch {
+	display: inline-block;
+	width:100%;
+	text-align: center;
+}
+
+.icon-wrapper {
+	display: inline-block;
+}
+
+.box-wrapper {
+	display: inline-block;
+	float: left;
+	width: 25%;
+}
+
+.box-wrapper .icon:hover {
+	background-color: #1481cf;
+}
+
+.box-wrapper .icon:hover  .fa {
+	color: #fff !important;
+}
+
+.active-box {
+	background-color: #1481cf;
+}
+
+.active-box .fa {
+	color: #fff !important;
+}
+
+.side-squares {
+	/* Formatting for clickable squares on various pages */
+	width:120px;
+	height:100px;
+	color: red;
+}
+
+
+/* Carousel General Styles */
+
+.carousel-header {
+	font-weight: 600;
+}
+
+/* Two button show/hide */
+
+
+.comparison-buttons {
+	width: 100%;
+	margin: 5% auto;
+}
+
+.comparison-buttons-wrapper {
+	width: 612px;
+	margin: 0 auto;
+	border: 1px solid #999999;
+}
+
+.comparison-buttons-wrapper div {
+	width: 302px;
+	display: inline-block;
+	text-align: center;
+}
+
+.comparison-buttons-wrapper p {
+	text-transform: uppercase;
+	font-size: 36px;
+	padding: 20px 0;
+	text-decoration: none;
+}
+
+.comparison-buttons-wrapper > .button-fiber {
+	float: right;
+}
+
+.comparison-button-active {
+	color: #fff;
+	background-color: #090f29;
+}
+
+.comparison-button-inactive {
+	color: #000;
+	background-color: #fff;
+}
+
+.button-cable:hover , .button-fiber:hover {
+	background: #2e3e8e;
+	cursor: pointer;
+}
+
+
+.comparison-content {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	
+}
+
+.comparison-content h5 {
+	font-size: 32px;
+	margin: 8% auto;
+}
+
+.comparison-content p {
+	color: #090f29;
+	text-align: left;
+	line-height: 2;
+}
+
+.comparison-content-single {
+	text-align: center;
+	line-height: 2;
+}
+
+
+/*vertically center when parent height is unknown */
+.center-vertically::before {
+	content: " ";
+	display: inline-block;
+	height: 100%;
+	width: 1%;
+	vertical-align: middle;
+}
+.center-vertically div {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+/*horizontally center when parent width is unknown */
+.center-horizontally-parent {
+	position: relative;
+}
+.center-horizontally-child {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+footer {
+	color: white;
+}
+
+/* top footer bar with polygon background */ 
+.footer-first-bar {
+	width: 100%;
+    max-height: 75vh;
+	background-color: #090f29;
+    background-size: cover;
+	padding: 5% 0;
+}
+
+/* the headers of the footer sections - i.e. main menu, etc. */
+.footer-header {
+	text-transform: uppercase;
+	font-size: 25px;
+    text-align: center;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+/* the main menu and links */
+.footer-menu-box {
+    width: 40%;
+    max-height: 20vh;
+    margin: 0 auto;
+	position: relative;
+	float: left;
+	color: #fff;
+}
+
+.footer-menu-box h6 {
+	color: #fff;
+}
+
+/* the unordered list of links */
+.footer-menu {
+    list-style-type: none;
+    padding-bottom: 5px;
+    columns: 2;
+    -webkit-columns: 2;
+	width: 50%;
+	margin: 0 auto;
+}
+	/* styling on the list items */
+	.footer-menu > li {
+		font-size: 18px;
+        text-transform: uppercase;
+		line-height: 1.75;
+	}
+
+	/* styling of the anchors in the footer menu*/
+    .footer-menu > li > a {
+        color: white;
+    }
+
+/* the footer form container */
+.footer-right {
+    width: 50%;
+	position: relative;
+    float: left;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer-right h6 {
+	color: #fff;
+}
+
+.footer-form {
+	width: 100%;
+	margin: 0 10% 0;
+}
+
+/* the left most text boxes of the form*/
+.form-left {
+    width: 30%;
+    float: left;
+	margin: 0 1%;
+}
+
+/* the right most text boxes of the form*/
+.form-middle {
+    float:left;
+    width: 30%;
+	margin: 0 1%;
+}
+
+/* the column of the form that holds the submit button*/
+.form-right {
+    width: 20%;
+    float: left;
+    margin-top: 15px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/* styling the input boxes*/
+.input-boxes {
+	-webkit-box-shadow: 
+      inset 0 0 8px  rgba(256,256,256,0.1),
+            0 0 16px rgba(256,256,256,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(256,256,256,0.1),
+            0 0 16px rgba(256,256,256,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(256,256,256,0.1),
+            0 0 16px rgba(256,256,256,0.1); 
+    border: 1px solid #A0C0D7; 
+    height: 30px;
+    width: 100%;
+	text-align: center;
+	font-size: 13px;
+	text-transform: uppercase;
+    border-color: #A0C0D7;
+    color: #646464;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* footer form submit button */
+.form-button {
+	text-transform: uppercase;
+    color: white;
+    border-radius: 4px;
+    background: #1CB841;
+    background: #85C540;
+      background-image: -webkit-linear-gradient(top, #85C540, #41B549);
+      background-image: -moz-linear-gradient(top, #85C540, #41B549);
+      background-image: -ms-linear-gradient(top, #85C540, #41B549);
+      background-image: -o-linear-gradient(top, #85C540, #41B549);
+      background-image: linear-gradient(to bottom, #85C540, #41B549);
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    font-size: 15px;
+    border: none;
+    padding: 10px;
+}
+
+.form-button:hover {
+	/* submit button */
+	cursor: pointer;
+}
+
+/* bar with the terms and conditions links*/
+.footer-bottom-bar {	
+	height: auto;
+	background-color: #090f29;
+	padding: 10px;
+	text-align: center;
+}
+
+/* 2015 copyright fiberinternet.com */
+.footer-copyright {
+	color: white;
+	text-transform: uppercase;
+	padding-left: 5%;
+}
+
+/* modal pop up for terms and conditions  */
+
+/* wrap around the privacy and terms link */
+.wrap {
+ 	display: inline;
+  	padding-left: 10px;
+  	width: 100%;
+  	text-align: center;
+}
+
+/* styling for the privacy and terms and conditions link */
+.privacy-terms {
+	color: white;
+	text-decoration: none;
+	padding-right: 10px;
+}
+
+/* button in the modal - the nice! button */
+.btn {
+	background: #428bca;
+	border: #357ebd solid 1px;
+	border-radius: 3px;
+	color: #fff;
+	display: inline-block;
+	font-size: 14px;
+	padding: 8px 15px;
+	text-decoration: none;
+	text-align: center;
+	min-width: 60px;
+	transition: color .1s ease;
+}
+
+/* X button inside of the modal popup*/
+.btn-close {
+	color: #aaa;
+	font-size: 30px;
+	text-decoration: none;
+	position: absolute;
+	right: 5px;
+	top: 5px;
+}
+
+.btn-close:hover {
+ 	color: #909090;
+}
+
+.modal:target + .modal-dialog {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0);
+  top: 500%;
+  z-index: 999;
+}
+
+.modal-dialog {
+  background: #fefefe;
+  border: #333 solid 1px;
+  border-radius: 5px;
+  margin-left: -200px;
+  position: fixed;
+  left: 50%;
+  top: -100%;
+  z-index: 11;
+  width: 360px;
+  -webkit-transform: translate(0, -500%);
+  -ms-transform: translate(0, -500%);
+  transform: translate(0, -500%);
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  -moz-transition: -moz-transform 0.3s ease-out;
+  -o-transition: -o-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+}
+
+/* these styles control the actual popup modal*/
+.modal-body {
+  padding: 20px;
+  color: 000;
+}
+
+.modal-header, 
+.modal-footer {
+  padding: 10px 20px;
+}
+
+.modal-header {
+  border-bottom: #eee solid 1px;
+}
+
+.modal-header h2 {
+  font-size: 10px;
+}
+
+.modal-call-number {
+	display: inline;
+	margin: 2% auto;
+	font-size: 45px;
+	vertical-align: middle;
+}
+
+.modal-footer {
+  border-top: #eee solid 1px;
+  text-align: right;
+}
+
+/* wide screen extra break */
+@media screen and (max-width: 1475px) {
+
+	.header-phone {
+		font-size: 40px !important;
+		margin: 0 0 0 2% !important;
+	}
+	
+	.button-hero {
+		background: url("../images/down-arrow.png") no-repeat center center;
+		background-size: 50%;
+		-moz-border-radius: 50%; 
+		-webkit-border-radius: 50%; 
+		border-radius: 50%; 
+		border: 2px solid #fff; 
+		width: 50px;
+		height: 50px;
+		padding: 10px 10px; 
+	}
+	
+	.button-move {
+	  margin: 2% auto;
+	}
+	
+}
+
+/* wide screen extra break */
+@media screen and (max-width: 1435px) {
+
+	.section-one-left > h6 {
+		font-size: 32px;
+	}
+	
+}
+
+/* wide screen extra break */
+@media screen and (max-width: 1360px) {
+	.nav-left, .nav-right {
+		margin: 0 2%;
+	}
+	
+}
+
+	
+/* wide screen extra break */
+@media screen and (max-width: 1370px) {
+	
+	.call-to-action{
+		font-size: 32px;
+	}
+	
+	.call-to-action p {
+		margin: 0;
+	}
+	
+	.section-one-left > h6{
+		font-size: 28px;
+	}
+	
+	.call-to-action .break-point {
+		position: relative;
+		float: left;
+	}
+	
+	.footer-menu {
+		list-style-type: none;
+		padding-bottom: 5px;
+		columns: 2;
+		-webkit-columns: 2;
+		width: 75%;
+		margin: 0 auto;
+	}
+	
+}
+
+/* wide screen extra break */
+@media screen and (max-width: 1280px) {
+
+	.call-to-action {
+		font-size: 25px;
+	}
+
+	.header-phone {
+		font-size: 36px !important;
+	}
+
+}
+
+/* wide screen extra break */
+@media screen and (max-width: 1280px) {
+
+	.nav-links > a {
+		font-size: 18px;
+	}
+}
+
+/* wide screen query */
+@media screen and (max-width: 1180px) {
+	.centered {
+		width: 90%;
+	}
+	
+	.section-one h6, .section-one-home h2 {
+		margin: 2% auto;
+		width: 90%;
+	}
+	
+	.logo {
+		margin: 1% 1% 1% 1%;
+	}
+	
+	/* Navigation CSS mobile */
+	.hamburger, .phone-icon, .mobile-container {
+      display: none;
+    }
+	
+	.nav-links > a {
+		font-size: 16px;
+	}
+	
+	.nav-right {
+		font-size: 18px;
+		margin: 0 1% 0 2%
+	}
+	
+	.nav-left {
+		margin: 0 2% 0 1% 
+	}
+	
+	.nav-links {
+		display: inline;
+		margin: 0 1% 0;
+	}
+	
+	.call-to-action {
+		font-size: 20px;
+	}
+	
+	.two-column-wrapper {
+		width: 90%;
+	}
+	
+}
+
+/* additional desktop query */
+@media screen and (max-width: 1000px) {
+
+	.nav-links > a {
+		font-size: 14px;
+	}
+	
+		.nav-left p {
+		font-size: 12px;
+	}
+	
+	.nav-right {
+		font-size: 16px;
+	}
+
+}
+
+/* additional desktop query */
+@media screen and (max-width: 910px) {
+
+	.nav-links > a {
+		font-size: 12px;
+	}
+
+	.nav-right {
+		font-size: 14px;
+	}
+	
+	.nav-left, .nav-right {
+		margin: 0 1%;
+	}
+	
+	.header-phone {
+		font-size: 26px !important;
+	}
+	
+	/*multi content switch area*/
+	.icon-wrapper {
+		width: 60%;
+	}
+	
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* STYLES GO HERE */
+}
+ 
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+
+	.home-hero {
+		margin: 20% auto 0 !important;
+	}
+	
+	.hero-sub-header {
+	  margin: 5% auto 2% !important;
+	}
+
+}
+ 
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+/* STYLES GO HERE */
+}
+
+
+/* desktop query */
+@media screen and (max-width: 960px) {
+	
+	/* Site wide settings */
+	.sub-header {
+		font-size: 30px;
+	}
+	
+	/* largest call to action # */
+	.call-number {
+	  margin: 0 0 0 2%;
+	  font-size: 80px;
+	}
+	
+	.circle-wrapper img {
+		width: 80%;
+	}
+	
+	.section-three-internet  .call-wrapper > div {
+		text-align: center;
+		margin: 0 auto;
+		width: 100%;
+	}	
+	
+	.two-column-wrapper {
+		width: 100%;
+	}
+	
+
+	.footer-form {
+		margin: 2% auto;
+	}
+	
+	/* the left most text boxes of the form*/
+	.form-left {
+	    width: 45%;
+	    float: left;
+	}
+
+	/* the right most text boxes of the form*/
+	.form-middle {
+	    width: 45%;
+		float:left;
+	    
+	}
+
+	/* the column of the form that holds the submit button*/
+	.form-right {
+	    width: 100%;
+	    margin: 5% auto;
+	}
+
+	/* button in the modal - the nice! button */
+	.btn {
+		background: #428bca;
+		border: #357ebd solid 1px;
+		border-radius: 3px;
+		color: #fff;
+		display: inline-block;
+		font-size: 14px;
+		padding: 8px 15px;
+		text-decoration: none;
+		text-align: center;
+		min-width: 60px;
+		transition: color .1s ease;
+	}
+
+	/* X button inside of the modal popup*/
+	.btn-close {
+		color: #aaa;
+		font-size: 30px;
+		text-decoration: none;
+		position: absolute;
+		right: 5px;
+		top: 0;
+	}
+
+	.btn-close:hover {
+	 	color: #909090;
+	}
+
+	.modal:target + .modal-dialog {
+	  -webkit-transform: translate(0, 0);
+	  -ms-transform: translate(0, 0);
+	  transform: translate(0, 0);
+	  top: 20%;
+	}
+
+	.modal-dialog {
+	  background: #fefefe;
+	  border: #333 solid 1px;
+	  border-radius: 5px;
+	  margin-left: -200px;
+	  position: fixed;
+	  left: 50%;
+	  top: -100%;
+	  z-index: 11;
+	  width: 360px;
+	  -webkit-transform: translate(0, -500%);
+	  -ms-transform: translate(0, -500%);
+	  transform: translate(0, -500%);
+	  -webkit-transition: -webkit-transform 0.3s ease-out;
+	  -moz-transition: -moz-transform 0.3s ease-out;
+	  -o-transition: -o-transform 0.3s ease-out;
+	  transition: transform 0.3s ease-out;
+	}
+
+	/* these styles control the actual popup modal*/
+	.modal-body {
+	  padding: 20px;
+	}
+
+	.modal-header, 
+	.modal-footer {
+	  padding: 10px 20px;
+	}
+
+	.modal-header {
+	  border-bottom: #eee solid 1px;
+	}
+
+	.modal-header h2 {
+	  font-size: 10px;
+	}
+
+	.modal-footer {
+	  border-top: #eee solid 1px;
+	  text-align: right;
+	}
+	
+	.call-to-action {
+		font-size: 18px;
+	}
+
+	.header-phone {
+		font-size: 40px; !important
+	}
+	
+}
+
+/* tablet query */
+@media screen and (max-width: 770px) {
+
+	.nav-wrapper, .header-banner-wrapper, .button-move, .hero-sub-header, .covervid-wrapper {
+		display: none;
+	}
+	
+	.nav-left, .nav-right {
+		margin: 0;
+	}
+	
+	/* Navigation CSS mobile */
+	.hamburger, .phone-icon, .mobile-container{
+        display: block;
+    }
+	
+	.mobile-container {
+	  width: 100%;
+	  height: 70px;
+	  position: fixed;
+	  text-align: center;
+	  z-index: 999;
+	}
+	
+	.hero-header-title {
+	  margin: 10% auto 0;
+	}
+	
+	.hero-header-sub-header {
+		font-size: 18px;
+	}
+	
+	.logo {
+		display: block;
+		margin: 5% auto;
+		text-align: center;
+		width: 100%;
+	}
+	
+	.logo-img {
+		width: 25%;
+	}
+	
+	.logo > p {
+		text-transform: uppercase;
+		color: #fff;
+		font-size: 16px;
+	}
+
+	.hamburger, .phone-icon, .mobile-container{
+      display: block;
+    }
+	
+	/* Mobile Call Banner */
+	
+	.call-now-top {
+ 		position: relative;
+		display: block;
+		width: 100%;
+		min-height: 70px;
+		border-bottom: 1px solid #000;
+		background-color: #7a7d85;
+	}
+	
+	.call-now-top  > div {
+		padding: 0 5%;
+		color: #fff;
+		font-family: 'Open-Sans', Helvetica, sans-serif;
+		display: inline-block;
+		height: 70px;
+		float: left;
+		text-align: center;
+	}
+    
+	.call-now-left {
+		background-color: #4c8ce9;
+		font-weight: 400;
+		font-size: 24px;
+		width:25%;
+	}
+    
+	.call-now-right {
+		font-size: 32px;
+		font-weight: 800;
+		width: 50%;
+	}
+	
+	.mobile-call-now, .mobile-call-number {
+		position: relative;
+  		top: 50%;
+  		transform: translateY(-50%);
+	}
+	
+	/* general mobile settings */
+	
+	.content {
+		display: block;
+	}
+	
+	.centered {
+		width: 90%;
+		display: block;
+		margin: 5% auto;
+	}
+	
+	/*multi content switch area*/
+	.icon-wrapper {
+		width: 62%;
+	}
+	
+	.section-one, .section-top-FAQ {
+		margin: 0 auto 2%;
+	}
+	
+	.section-one > h6, .section-top-FAQ > h2, .section-one-home h2 {
+		background-color: #5fbaf8;
+		color: #fff;
+		width: 100%;
+		text-align: center;
+		margin: 0 0 0 0;
+		padding: 4% 0;
+	}
+
+	.button-wrapper {
+		display: none;
+	}
+	
+	/* section four mobile settings */
+	
+	.call-font {
+		font-size: 22px;
+	}
+	
+	.circle-wrapper {
+		text-align: center;
+	}
+	
+	.circle-wrapper img {
+	  width: 70%;
+	}
+	
+	.call-number {
+	  margin: 0 0 0 2%;
+	  font-size: 65px;
+	}
+	
+	
+	/* section five mobile setting */
+	
+	.two-column-wrapper {
+		width: 80%;
+	}
+	
+	.two-column-wrapper > div {
+		width: 100%;
+		padding: 5% 0;
+	}
+	
+	.comparison-content h5 {
+		  margin: 4% auto 8%;
+	}
+	
+	.header-banner-middle {
+			width: 30%;
+	}
+	
+	footer {
+		color: white;
+	}
+    
+	/* footer bar with the polygon background */
+	.footer-first-bar {
+		display: none;
+	}
+    
+	/* bar with the terms and conditions links*/
+	.footer-bottom-bar {	 
+		background-color: #090f29;
+		padding: 10px;
+		text-align: center;
+	}
+
+	/* 2015 copyright fiberinter.com */
+	.footer-copyright {
+		color: white;
+		text-transform: uppercase;
+		padding-left: 5%;
+	}
+
+	/* modal pop up for terms and conditions  */
+
+	/* wrap around the terms and privacy links*/
+	.wrap {
+	 	display: inline;
+	  	padding: 10px;
+	  	width: 100%;
+	  	text-align: center;
+	}
+
+	/*  styling for the privacy and terms link */
+	.privacy-terms {
+		color: white;
+		text-decoration: none;
+		padding-right: 10px;
+	}
+	
+}
+
+
+@media screen and (max-width: 770px)
+and (orientation: landscape){
+	
+	.hero {
+		height: 100vh !important;
+	}
+
+	.logo-img {
+		width: 20% !important;
+	}	
+	
+	.home-hero>h1 {
+		font-size: 40px !important;
+	}
+	
+}
+
+
+/* extra mobile phone query */
+@media screen and (max-width: 685px) {
+
+	.header-banner-middle {
+		width: 35%;
+	}
+	
+	.comparison-buttons-wrapper {
+		width: 80%;
+	}
+	
+	.comparison-buttons-wrapper div {
+		width: 48%;
+	}
+	
+	.comparison-buttons-wrapper p {
+		font-size: 30px;
+	}
+	
+}
+
+@media screen and (max-width: 685px) {
+
+	.logo {
+		margin: 5% auto;
+	}
+	
+	
+	/* section four mobile settings */
+	
+	.call-wrapper >p {
+		width: 100%;
+		padding: 1% 0;
+	}
+	
+	.circle-wrapper {
+		display: none;
+	}
+	
+	.call-font {
+		font-size: 20px;
+	}
+	
+	.call-number {
+		margin: 0;
+		font-size: 55px;
+	}
+	
+}
+
+@media screen and (max-width: 545px) {
+
+	.nav-list-mobile a {
+		padding: 10px 0;
+	}
+
+	.call-now-left{
+		font-size: 18px;
+	}
+    
+	.call-now-right{
+		font-size: 26px;
+	}
+	
+	.section-one h6, .section-one-home h2{
+		font-size: 25px;
+	}
+	
+	.section-three > h6{
+		font-size: 28px;
+	}
+	
+	/* section four mobile settings */
+	
+	.call-font {
+		font-size: 18px;
+	}
+	
+	.call-number {
+	  margin: 0;
+	  font-size: 50px;
+	}
+	
+	/* section five mobile settings */
+	
+	.comparison-buttons-wrapper p, .comparison-content h5{
+		font-size: 24px;
+	}
+	
+}
+
+/* mobile phone query */
+@media screen and (max-width: 375px) {
+	
+	.nav-wrapper, .header-banner-wrapper, .button-move, .hero-sub-header {
+		display: none;
+	}
+
+	.hero-header-title {
+		font-size: 20px !important;
+		line-height: 1.5 !important;
+	}
+
+	.hero-header-sub-header {
+		font-size: 14px !important;
+	}
+	
+	.logo {
+		display: block;
+		margin: 10% auto;
+		text-align: center;
+	}
+	
+	.logo-img {
+		width: 25%;
+	}
+	
+	.logo > p {
+		text-transform: uppercase;
+		color: #fff;
+		font-size: 16px;
+	}
+		
+	/* Navigation CSS mobile */
+	.hamburger, .phone-icon, .mobile-container {
+      display: block;
+    }
+	
+	.mobile-navbar {
+        display: block;
+        z-index: 10;
+        background-color: #112151;
+        color: white;
+        padding: 5% 10% 5% 5%;
+    }
+    
+    /*menu button */
+    .mobile-nav-left {
+        width: 20%;
+        text-align: center;
+        font-size: 26px;
+        padding-right: 10%;
+    }
+    
+    .mobile-nav-left:hover {
+        cursor: pointer;
+    }
+    
+    .mobile-nav-center {
+        width: 60%;
+        text-align: center;
+        font-size: 26px;
+        color: #bcc8ee;
+        padding-right: 10%;
+    }
+    
+    .mobile-nav-right {
+        width: 20%;
+        text-align: center;
+        font-size: 26px;
+    }
+
+    .mobile-nav-links {
+        display: none;
+    }
+
+    .mobile-nav-links > a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 18px;
+        color: white;
+    }
+
+    .mobile-nav-links > a:hover {
+        color: #7fd0ff;
+    }
+	
+	/* Mobile Call Banner */
+	
+ 	.call-now-left {
+		font-size: 16px;
+	}
+    
+	.call-now-right {
+		font-size: 20px;
+	}
+	
+	.section-one h6 {
+		font-size: 25px;
+	}
+	
+	/* section four mobile settings */
+	
+	.call-font {
+		font-size: 16px;
+	}
+	
+	.call-number {
+	  margin: 0;
+	  font-size: 40px;
+	}
+	
+	
+	footer {
+		color: white;
+	}
+
+	/* bar with polygon background */
+	.footer-first-bar {
+		display: none;
+	}
+
+	/* bottom bar that contains copyright, terms, privacy  */
+	 
+    .footer-bottom-bar {	
+        background-color: #06224A;
+        padding: 10px;
+        text-align: center;
+    }
+    
+	/* 2015 copyright fiberinternet.com */
+	.footer-copyright {
+		color: white;
+		text-transform: uppercase;
+		padding-left: 0;
+		display: block;
+		margin-top: 3%;
+	}
+    
+    .privacy-terms {
+		color: white;
+		text-decoration: none;
+		padding-right: 10px;
+        padding-bottom: 3%;
+	}
+    
+	/* modal pop up for terms and conditions  */
+
+	/* wrap of the terms and privacy link */
+	.wrap {
+	 	display: block;
+	  	padding: 10px;
+	  	width: 100%;
+	  	text-align: center;
+	}
+
+	/* terms and privacy styles */
+	.privacy-terms {
+		color: white;
+		text-decoration: none;
+		padding-right: 10px;
+	}
+	
+}

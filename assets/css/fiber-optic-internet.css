@@ -1,0 +1,447 @@
+/* CSS Specific to Internet Page */
+
+/* header and hero styles */
+.hero-fiber-bkgrd{
+	background-image: url("../images/hero-internet.png");
+}
+
+/* general page styles */
+.one-internet, .section-two-internet, .section-four-internet{
+	font-size: 16px;
+}
+
+/* section one styles */
+.one-internet {
+	width: 100%;
+}
+
+.one-internet-centered {
+	overflow: hidden;
+	position: relative;
+}
+
+.section-one-left {
+	width: 60%;
+	float: left;
+}
+
+.one-internet .section-one-left .owl-carousel {
+	width: 90%;
+}
+
+.one-internet .section-one-left .owl-carousel p {
+	padding: 10px 0;
+}
+
+.owl-content-internet {
+	padding: 0;
+}
+
+.one-internet .section-one-right {
+	text-align: center;
+	margin: 0;
+}
+
+.one-internet .section-one-right p {
+    line-height: 1.5;
+	text-align: left;
+	font-size: 14px;
+}
+
+.section-one-right .fa-5x {
+	font-size: 12em;
+	color: #83a0c4;
+	position: relative;
+	top: -10px;
+}
+
+/* section two styles */
+.section-two-internet {
+	display: block;
+	margin: 5% auto 0;
+	width: 80%;
+	text-align: center;
+}
+
+.section-two-internet .fa {
+	 color: #83a0c4;
+	 width: 100%;
+	 position: relative;
+	  top: 50%;
+	  transform: translateY(-50%);
+}
+
+.icon-wrapper {
+	width: 100%;
+}
+
+.add-margin-top-five{
+	margin-top: 5%;
+}
+
+/* internet page section three */
+.section-three-interent {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+/* internet page section four */
+.section-four-internet-wrapper {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+
+}
+
+.section-four-bkgrd {
+	position: absolute;
+	z-index: 1;
+	width: 50%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-size: cover;
+	background-image: url("../images/section-four-internet.png");
+	background-repeat: no-repeat;
+}
+
+.section-four-internet {
+	margin: 5%;
+	width: 50%;
+	float: right;
+	text-align: center;
+	position: relative;
+	z-index: 5;
+}
+
+.section-four-internet h2, .section-four-internet+div, .section-four-internet+p {
+	display: inline-block;
+}
+
+.section-four-internet h2 {
+	margin: 0 auto 5%;
+}
+
+.section-four-internet-content {
+	display: inline-block;
+	position: relative;
+	margin: 5% auto;
+	width: 100%;
+}
+
+.section-four-internet-content > div {
+	text-align: left;
+}
+
+
+/*vertically center with translate and make sure parent is position:relative */
+.vertically-center {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+
+.medium-icon {
+	width: 160px !important;
+	height: 160px;
+	display: inline;
+}
+
+
+/* additional desktop query*/
+@media screen and (max-width: 1640px){
+
+	.one-internet .section-one-right {
+		float: right;
+	}
+	
+}
+
+@media screen and (max-width: 1360px){
+
+	.section-two-internet .sub-sub-header {
+		font-size: 20px;
+	}
+
+}
+
+/* additional desktop query*/
+@media screen and (max-width: 1215px) {
+	
+	.one-internet .section-one-right p {
+		font-size: 14px;
+	}
+		
+	.section-four-internet {
+		width: 80%;
+		font-weight: 600;
+		color: #090f29;
+	}	
+	
+	.section-four-bkgrd {
+		width: 75%;
+		background-image: url("../images/section-four-internet-overlap.png");
+	}
+	
+	.section-four-internet-content p {
+		margin: 2% 0;
+		text-align: left;
+	}
+	
+	.section-four-internet h2 {
+		color: #090f29;
+	}
+	
+}
+
+/* additional desktop query */
+@media screen and (max-width: 1180px){
+
+	.section-one-right .fa-5x {
+		font-size: 10em;
+	}
+
+	.icon-wrapper {
+		width: 100%;
+	}
+	
+	.section-two-internet {
+	  width: 100%;
+	}
+
+}
+	
+/* desktop query */
+@media screen and (max-width: 960px) {
+
+	.section-three-internet .circle-wrapper {
+		display: none;
+	}
+	
+	.section-three-internet .call-font {
+		font-size: 22px;
+	}
+	
+	.section-two-internet .sub-sub-header {
+		font-size: 18px;
+	}
+
+}
+
+/* tablet query */
+@media screen and (max-width: 770px) {
+
+	.section-one-left {
+		width: 100%;
+		margin: 0 2% 10% 0;
+	}
+	
+	.section-one-right {
+		display: none;
+	}
+	
+	.hero-header-title {
+	  font-size: 32px;
+	}
+	
+	.hero-header-sub-header {
+	  font-size: 18px;
+	}
+	
+	.owl-wrapper .sub-sub-header {
+		height: 100%;
+	}
+
+	/* section two multi content switch area */
+	.box-wrapper .icon {
+		height: 90px;
+		width: 90px;
+		border-radius: 90px;
+	}
+	
+	.section-two-internet .sub-sub-header {
+		font-size: 18px;
+	}
+	
+	.section-two-internet .article-call-out {
+		text-align: left;
+	}
+
+}
+
+/* tablet query */
+@media screen and (max-width: 767px) {
+
+	.section-three-internet .call-font {
+		font-size: 20px;
+	}
+	
+	/* internet page section four */
+
+	.section-four-internet h2, .section-four-internet+div, .section-four-internet+p {
+		display: block;
+		line-height: 1.25;
+	}
+
+	.section-four-internet-content {
+		display: block;
+		position: relative;
+		margin: 5% auto;
+		width: 100%;
+	}
+
+	/*REMOVE vertically center for mobile */
+	.vertically-center {
+		position: relative;
+		top: 0;
+		transform: translateY(0);
+	}
+
+	.section-four-internet-content > div {
+		position: relative;
+		text-align: center;
+		margin: 0 auto;
+		
+	}
+
+	.section-four-internet-content div {
+		display: block;
+		margin: 0 5%;
+	}
+
+	.section-four-internet-content > .wrapper-left {
+		width: 100%;
+		margin: 0 0 2% 0;
+	}
+
+	.section-four-internet-content > .wrapper-right {
+		width: 100%;
+		text-align: left;
+	}
+
+	.section-four-internet-content > .wrapper-right p {
+		margin: 2% 0;
+	}
+	
+}
+
+/* addition mobile phone query */
+@media screen and (max-width: 685px) {
+	
+	.section-two-internet .sub-sub-header {
+		font-size: 14px;
+	}
+
+	.section-three-internet .call-font {
+		font-size: 18px;
+	}
+
+}
+
+/* additional mobile phone query */
+@media screen and (max-width: 585px) {
+	/* section two multi content switch area */
+
+	/* section two multi content switch area */
+	.section-two-internet .box-wrapper {
+		width: 100%;
+		margin: 5% auto 0;
+	}
+	
+	.section-two-internet .icon {
+		width: 60px;
+		height: 60px;
+		border-radius: 60px;
+		float: left;
+		margin: 0;
+	}
+	
+	.mobile-hide {
+		display: none;
+	}
+	
+	.multi-content-switch {
+		width: 60%;
+	}
+	
+	.box-wrapper .sub-sub-header {
+		padding: 0;
+		margin: 5%;
+		float: left;
+		height: 100%;
+		font-size: 18px
+	}
+	
+	.section-two-internet .fa-3x {
+		font-size: 2em;
+	}
+
+	.section-three-internet .call-font {
+		font-size: 16px;
+	}
+	
+}
+
+/* additional mobile phone query */
+@media screen and (max-width: 520px) {
+
+	.section-three-internet .call-font {
+		font-size: 14px;
+	}
+	
+}
+
+/* additional mobile phone query */
+@media screen and (max-width: 470px){
+	
+	.multi-content-switch {
+		width: 70%;
+	}
+
+}
+
+
+/* additional mobile phone query */
+@media screen and (max-width: 460px){
+		
+	/* section-three internet page */
+	.section-three-internet .call-font {
+	  font-size: 18px;
+	}
+
+	/*section four internet page */
+	.section-four-internet .article-call-out {
+		width: 80%;
+	}
+	
+	.section-four-internet-content p {
+		padding: 5% 0;
+	}
+	
+	.section-four-bkgrd {
+		width: 100%;
+	}
+	
+}
+
+/* additional mobile phone query */
+@media screen and (max-width: 400px){
+	
+	.multi-content-switch {
+		width: 80%;
+	}
+
+}
+
+
+/* mobile phone query */
+@media screen and (max-width: 375px) {
+
+	.multi-content-switch {
+		width: 85%;
+	}
+
+}

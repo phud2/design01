@@ -1,0 +1,461 @@
+@charset "utf-8";
+/* CSS Document for Availability Page */
+
+
+.hero-availability-bkgrd {
+	background-image: url("../images/hero-availability.png");
+}
+
+/* section one availability */
+
+.content {
+	margin: 2% auto 5%;
+}
+
+.section-one-availability {
+	margin: 0 auto 5%;
+}
+
+.section-one-availability .header-font {
+	width: 80%;
+	margin: 0 auto 1%;
+}
+
+.availability-twocol-right .sub-sub-header {
+	font-size: 32px !important;
+	font-weight: 600;
+	line-height: 1.5;
+	color: #FFB400;
+	text-shadow: 1px 2px 2px #171919;
+	text-align: center;
+}
+
+.section-one-availability .sub-sub-header {
+	font-size: 34px;
+	display: inline-block;
+	padding: 0;
+	margin: 3% 0;
+
+}
+
+.availability-article-call-out {
+	margin: 3% 0;
+	font-size: 20px;
+	line-height: 1.75;
+	text-align: center;
+}
+
+.in-text-800 {
+	font-size: 32px;
+}
+
+.availability-twocol-right {
+	display: inline-block;
+	height: 100%;
+	width: 28%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.avail-right-content {
+	margin: auto 5% auto 5%;
+	text-align: left;
+}
+
+.availability-twocol-left {
+	padding-top: 20px;
+	display: inline-block;
+	height: 100%;
+	width: 65%;
+}
+
+/* section two availability */
+
+.change-case {
+		/* This could be added to sub-header and eliminated.  Check during code review. */
+	text-transform: uppercase;	
+}
+
+.icon-container {
+	text-align: center;
+}
+
+.icon-center {
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.availability-three-col {
+	width: 25%;
+	margin: 4%;	
+}
+
+.availability-section-two .three-col {
+	margin: 0 4% 4%;
+}
+
+.availability-circle {
+	/* Place holder for large circles on availability page */
+	width: 120px !important;
+	height: 120px;
+	display: inline;
+	margin: 15% 0 0;	
+}
+
+.section-two-desktop-content {
+    display: block;
+}
+
+.section-two-mobile-content {
+    display: none;
+}
+
+.availability-section-two {
+	margin: 5% auto 0;
+}
+
+.availability-section-two .fa-2x {
+	color: #5ab1ef;
+}
+
+/* availability page section three */
+
+.availability-section-three {
+	margin: 0 auto;
+}
+
+/* availability page section four */
+.section-four-availability-wrapper {
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	height: 600px;
+}
+
+.section-four-availability-content .accordion-header {
+	padding: 0 0 63px 0;
+}
+
+.section-four-bkgrd {
+	position: absolute;
+	z-index: 1;
+	width: 40%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-size: cover;
+	background-image: url("../images/section-four-avail.png");
+	background-repeat: no-repeat;
+}
+
+.section-four-availability {
+	margin: 0 auto%;
+	width: 60%;
+	float: right;
+	text-align: center;
+	position: relative;
+	z-index: 5;
+}
+
+.section-four-availability > p {
+	text-align: left;
+	margin: 0 10%;
+	color: #090f29;
+}
+
+.section-four-availability h2, .section-four-availability+div, .section-four-availability+p {
+	display: inline-block;
+}
+
+.section-four-availability > h2 {
+	margin: 5% auto;
+}
+
+.section-four-availability-content {
+	display: inline-block;
+	position: relative;
+	width: 80%;
+	color: #090f29;
+}
+
+.accordion-header {
+	color: #090f29;
+}
+
+.accordion-description {
+	text-align: left;
+	color: #090f29;
+	padding: 0 0 5% 15%;
+}
+
+.accordion-control {
+	color: #090f29;
+}
+
+.add-margin-fifty {
+	margin-top: 50px;
+}
+
+/* wide screen extra break */
+@media screen and (max-width:1799px) {
+
+	.accordion-description {
+		padding: 0 0 5% 15%;
+	}
+	
+	.section-four-bkgrd {
+		width: 45%;
+	}
+	
+	.section-four-availability {
+		width: 55%;
+	}
+	
+}
+
+/* wide screen extra break */
+@media screen and (max-width: 1530px) {
+	
+	.section-four-bkgrd {
+		width: 45%;
+		background-image: url("../images/section-four-avail-small.png");
+	}
+	
+	.section-four-availability {
+		width: 65%;
+	}
+	
+	
+	.section-four-availability-content {
+		width: 65%;
+	}
+}
+
+/* wide screen extra break */
+@media screen and (max-width: 1400px) {
+	
+	.availability-twocol-left { 
+		width: 100%;
+		text-align: center;
+	}
+	
+	.availability-twocol-right {
+		width: 100%;
+	}
+	
+}
+
+
+/* wide screen query */
+@media screen and (max-width: 1180px) {
+
+}
+
+/* desktop query */
+@media screen and (max-width: 960px) {
+	
+	.call-wrapper > div {
+		width: 100%;
+		text-align: center;
+	}
+
+    .availability-section-three .circle-wrapper {
+        display: none;
+    }
+    
+    .availability-section-three .call-font {
+        font-size: 22px;
+    }
+	
+	.section-four-bkgrd {
+		width: 100%;
+		background-image: url("../images/section-four-avail-overlay.png");
+	}
+		
+	.section-four-availability {
+		width: 100%;
+		float: none;
+		margin: 0 auto;
+	}	
+	
+	.section-four-availability-content {
+		width: 80%;
+	}
+	
+}
+
+/* tablet query */
+@media screen and (max-width: 767px) {
+    
+    /* section two css */ 
+    .section-two-desktop-content {
+        display: none;
+    }
+
+    .section-two-mobile-content {
+        display: block;
+    }
+
+    /* section two mobile accordion */
+    
+    .availability-section-two .accordion {
+        margin: 2% 5%;
+    }
+    
+    .availability-section-two .fa {
+        margin: 0 auto;
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+    }
+    
+    .availability-section-two .accordion-header {
+        position: relative;
+        margin: 2% auto;
+		padding: 0 0 3% 0;
+    }
+
+    .availability-section-two .accordion-header h6 {
+        font-size: 28px;
+        font-weight: 400;
+        display: inline-block;
+        margin: 2% 4%;
+        line-height: 125%;
+    }
+    
+    .availability-section-two .accordion-control {
+        border: none;
+    }
+    
+    .availability-section-two .accordion-description {
+        width: 100%
+    }
+    
+    .availability-section-two .accordion-description p {
+        margin: 0 10% 4%;
+    }
+    
+    .availability-section-two .rotated {
+        transform: rotate(359deg) ;
+        -webkit-transform: rotate(359deg) ;
+        -moz-transform: rotate(359deg) ;
+        -o-transform: rotate(359deg) ;
+        -ms-transform: rotate(359deg) ;
+        background-color: #5ab1ef;
+    }
+    
+    .availability-section-two .rotated > .fa {
+        color: #fff;
+    }
+    
+    .availability-section-two .icon {
+        height: 75px;
+        width: 75px;
+        margin: 0 0 0 2%;
+    }
+    
+    .availability-section-two .icon:hover {
+    background-color: #5ab1ef;
+}
+    
+    .availability-section-two .icon:hover > .fa {
+        color: #fff;
+    }
+	
+	/* section three */
+	
+	.availability-section-three .call-font {
+		font-size: 20px;
+	}
+
+    /* section four */
+	
+    .section-four-availability .image-container-left {
+        display: none;
+    }
+
+    .section-four-availability .container-right {
+        margin-top: 20px;
+        width: 80%;
+    }
+
+    .section-four-availability .add-margin-fifty {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+}
+
+/* addition mobile phone query */
+@media screen and (max-width: 685px) {
+
+    .availability-section-three .call-font {
+        font-size: 16px;
+    }
+	
+	.call-font {
+		font-size: 14px;
+	}
+	
+}
+
+/* additional mobile phone query */
+@media screen and (max-width: 585px) {
+
+    .availability-section-three .call-font {
+        font-size: 14px;
+    }
+	
+	.mobile-hide {
+		display: none;
+	}
+	
+	.availability-section-three .call-font {
+		font-size: 28px;
+	}
+	
+}
+
+/* additional mobile phone query */
+@media screen and (max-width: 520px) {
+
+    .availability-section-three .call-font {
+        font-size: 24px;
+    }
+
+	.availability-section-two .accordion-header h6 {
+		font-size: 24px;
+	}
+	
+	.availability-section-two .accordion-description p {
+        margin: 0 15% 2%;
+    }
+	
+	.availability-section-two .icon {
+	  height: 60px;
+	  width: 60px;
+	}
+	
+	.availability-section-two .fa-2x {
+		font-size: 1em;
+	}
+
+}
+
+@media screen and (max-width: 480px){ 
+
+	.availability-section-three .call-font {
+		font-size: 22px;
+	}
+	
+}
+	
+/* mobile phone query */
+@media screen and (max-width: 375px) { 
+
+	.availability-section-three .call-font {
+		font-size: 18px;
+	}
+
+}
